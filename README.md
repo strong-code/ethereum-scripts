@@ -4,8 +4,9 @@ This is a collection of 1-off scripts that relate to ethereum research
 
 # TODO
 
-1. Define contract for producer (script) and consumer (most likely an SQS backed runner)
-2. Define infrastructure
+1. Define contract for producer (script) and consumer (most likely cron)
+2. Define infrastructure/design
+  - cron scripts that run on server, add logging for all sources
 3. Break this out into something intelligible at some point.
 
 # Ideas
@@ -15,3 +16,10 @@ This is a collection of 1-off scripts that relate to ethereum research
 - Volume, market cap, sell/buy order numbers by week
 - Google trends activity/mentions
 - Specifically mentions of big bank and blockchain/ethereum integrations (ConsenSys, R3CEV)
+- Github dAPP creation per week?
+- Track ethereum/blockchain companies, vc firms and investments (crunchbase data)
+- reddit subscribers/size
+  - https://www.coingecko.com/en
+  - http://redditmetrics.com/r/ethereum
+- Number of meetups
+- Number of followers on main @ethereum project
