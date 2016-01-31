@@ -21,5 +21,5 @@ This is a collection of 1-off scripts that relate to ethereum research
 - reddit subscribers/size
   - https://www.coingecko.com/en
   - http://redditmetrics.com/r/ethereum
-- Number of meetups
+- ~~Number of meetups~~
 - Number of followers on main @ethereum project
