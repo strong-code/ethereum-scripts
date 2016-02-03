@@ -2,17 +2,24 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-API_URL = 'https://poloniex.com/public?command=returnTicker'
+def report(results)
+  p results
+end
 
-uri = URI.parse(API_URL)
+def run
+  uri = URI.parse('https://poloniex.com/public?command=returnTicker')
 
-response = JSON.parse(Net::HTTP.get_response(uri).body)
+  response = JSON.parse(Net::HTTP.get_response(uri).body)
+  body = response['BTC_ETH']
 
-raw    = response['BTC_ETH']
-volume = raw['baseVolume']
-day_hi = raw['high24hr']
-day_lo = raw['low24hr']
+  results = {
+    :raw    => body,
+    :volume => body['baseVolume'],
+    :day_hi => body['high24hr'],
+    :day_lo => body['low24hr']
+  }
 
-p raw
-p day_hi
-p day_lo
+  report(results)
+end
+
+run()
