@@ -17,7 +17,7 @@ This is a collection of 1-off scripts that relate to ethereum research
 - ~~Volume, market cap, sell/buy order numbers by week~~ [done, except for reporting]
 - Google trends activity/mentions
 - Specifically mentions of big bank and blockchain/ethereum integrations (ConsenSys, R3CEV)
-- Github dAPP creation per week?
+- ~~Github dAPP creation per week?~~ [done, except for reporting]
 - Track ethereum/blockchain companies, vc firms and investments (crunchbase data)
 - reddit subscribers/size
   - https://www.coingecko.com/en
