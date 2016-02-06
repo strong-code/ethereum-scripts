@@ -24,7 +24,7 @@ end
 def run()
   # Script core here
 
-  log(data)
+  log(level, data)
   persist(results)
 end
 
@@ -59,5 +59,5 @@ likely will be its own set of scripts depending on what data is needed.
   - http://redditmetrics.com/r/ethereum
 - ~~Number of meetups~~ [done, except for reporting]
 - Number of followers on main @ethereum project
-- Ethereum network stats from https://etherchain.org/
+- ~~Ethereum network stats from https://etherchain.org/ ~~
 - Use http://smmry.com/api to get daily tl;drs of top linked/voted/commented articles
