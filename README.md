@@ -4,11 +4,11 @@ This is a collection of 1-off scripts that relate to ethereum research
 
 # Design
 The idea is to have a collection of uncouples scripts that follow a defined contract.
-A script should be able to run (via chron or similar scheduling) completely independently
+A script should be able to run (via cron or similar scheduling) completely independently
 of anything other dependency (save for gems and database connection). Below is the
 contract that scripts should adhere to.
 
-```
+```ruby
 # Persist results in database table
 def persist(results)
   #
