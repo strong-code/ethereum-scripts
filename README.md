@@ -24,3 +24,4 @@ This is a collection of 1-off scripts that relate to ethereum research
   - http://redditmetrics.com/r/ethereum
 - ~~Number of meetups~~ [done, except for reporting]
 - Number of followers on main @ethereum project
+- Use http://smmry.com/api to get daily tl;drs of top linked/voted/commented articles
