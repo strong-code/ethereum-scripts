@@ -16,7 +16,7 @@ end
 
 # Log any critical data to a log rotated file. This should be errors, run time,
 # and related data that may be needed in the event of an audit (URLs, important numbers, etc)
-def log(data)
+def log(level, data)
   #
 end
 
