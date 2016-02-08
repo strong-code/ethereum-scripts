@@ -1,2 +1,3 @@
 secrets.yml
 Gemfile.lock
+*db
