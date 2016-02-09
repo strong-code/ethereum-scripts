@@ -60,4 +60,5 @@ likely will be its own set of scripts depending on what data is needed.
 - ~~Number of meetups~~ [done, except for reporting]
 - Number of followers on main @ethereum project
 - ~~Ethereum network stats from https://etherchain.org/~~
+- Number of wallets on https://etherscan.io/charts/address
 - Use http://smmry.com/api to get daily tl;drs of top linked/voted/commented articles
